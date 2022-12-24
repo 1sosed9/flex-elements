@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url("../fonts/static/Inconsolata_Expanded/Inconsolata_Expanded-Medium.ttf");
+}
+
+body {
+  font-family: Inconsolata;
+}
+
+.font-sz-small {
+  font-size: 0.7rem;
+}
+
+.font-sz-normall {
+  font-size: 0.8rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  margin: auto;
+  background: url("../images/sprite.png");
+}
+
+.icon1 {
+  background-position: -18px 318px;
+}
+.icon2 {
+  background-position: 66px 318px;
+}
+.icon3 {
+  background-position: 149px 318px;
+}
+.icon4 {
+  background-position: 234px 318px;
+}
+.icon5 {
+  background-position: 66px 318px;
+}
+.icon6 {
+  background-position: 318px 318px;
+}
+.icon7 {
+  background-position: 402px 318px;
+}
+.icon8 {
+  background-position: 486px 318px;
+}
+.icon9 {
+  background-position: 571px 318px;
+}
+
+.p-4 {
+  padding: 1rem !important;
+}
+
+.container .box:focus .icon {
+  background-position-y: -101px;
+}
+
+.container .box:focus .title-box {
+  color: blue;
+}
+
+.container .box:hover .icon {
+  background-position-y: -101px;
+}
+
+.container .box:hover .title-box {
+  color: blue;
+}
+
+.container .box:hover {
+  cursor: pointer;
+}
